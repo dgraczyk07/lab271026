@@ -115,7 +115,7 @@ int main() {
 			cout << "Druga liczba jest najmniejsza" << endl;
 		}
 		for (c < a && c < b)
-
+			///.....
 
 
 
