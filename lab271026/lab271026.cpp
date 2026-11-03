@@ -93,6 +93,8 @@ int main() {
 }
 */
 
+/* zad. 4
+
 int abc(int a, int b, int c);
 void wyswietlanie();
 
@@ -108,19 +110,44 @@ int main() {
 	cout << "Podaj trzecia liczbe: ";
 		cin >> c;
 
-		for (a < b&& a < c) {
-			cout << "Pierwsza liczba jest najmniejsza" << endl;
-		}
-		for (b < c && b < a) {
-			cout << "Druga liczba jest najmniejsza" << endl;
-		}
-		for (c < a && c < b)
-			///.....
-
-
-
-
 }
 
+void wyswietlanie(int a, int b, int c) {
+	if (a < b && a < c) {
+		cout << "Pierwsza liczba jest najmniejsza" << endl;
+	}
+	if (b < c && b < a) {
+		cout << "Druga liczba jest najmniejsza" << endl;
+	}
+	if (c < a && c < b) {
+		cout << "Trzecia liczba jest najmniejsza" << endl;
+	}
+	
+}
+*/
+
+float PoleTrojkata(float a, float h);
+void wyswietlanie();
+
+int main() {
+	float podstawa, wysokosc;
+	cin >> podstawa;
+
+	cout << "Podaj wysokosc trojkata: ";
+	cin >> wysokosc;
+
+	float Pole = PoleTrojkata(podstawa, wysokosc);
+
+	cout << "Podwojona wartosc pola trojkata wynosi: " << 2 * Pole << endl;
+
+	return 0;
+}
+
+float PoleTrojkata(float a, float h) {
+	float pole = (a * h) / 2;
+	cout << "Pole trojkata wynosi: " << pole << endl;
+	return pole;
+}
+//...
 
 
