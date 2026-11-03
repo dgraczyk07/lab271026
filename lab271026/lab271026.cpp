@@ -126,11 +126,14 @@ void wyswietlanie(int a, int b, int c) {
 }
 */
 
+/* zad 5.
+
 float PoleTrojkata(float a, float h);
 void wyswietlanie();
 
 int main() {
 	float podstawa, wysokosc;
+	cout << "Podaj podstawe trojkata: ";
 	cin >> podstawa;
 
 	cout << "Podaj wysokosc trojkata: ";
@@ -147,7 +150,6 @@ float PoleTrojkata(float a, float h) {
 	float pole = (a * h) / 2;
 	cout << "Pole trojkata wynosi: " << pole << endl;
 	return pole;
-}
-//...
-
+} //...
+*/
 
